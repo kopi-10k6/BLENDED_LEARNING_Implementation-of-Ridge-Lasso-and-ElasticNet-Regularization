@@ -76,8 +76,8 @@ for name, model in models.items():
     #Store resultsa
     results [name] = {'MSE': mse, 'R² Score': r2}
 # Print results
-print('Name: LOKESHWARAN.G')
-print('Reg. No: 21222504210')
+print('Name: KOPIGA N')
+print('Reg. No: 212225220053')
 for model_name, metrics in results.items():
     print(f"{model_name} - Mean Squared Error:{metrics ['MSE']:.2f}, R² Score: {metrics['R² Score']:.2f}")
     
