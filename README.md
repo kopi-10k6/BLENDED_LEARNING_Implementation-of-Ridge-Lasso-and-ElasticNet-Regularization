@@ -9,11 +9,10 @@ To implement Ridge, Lasso, and ElasticNet regularization models using polynomial
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+1. Load and preprocess the dataset by encoding categorical variables, separating features and target (price), and standardizing the data.
+2. Split the dataset into training and testing sets using train_test_split().
+3. Create pipelines with Polynomial Features (degree 2) and apply Ridge, Lasso, and ElasticNet regression models, then train them.
+4. Evaluate the models using MSE and R² score, store the results, and visualize them using bar plots.
 ## Program:
 ```
 /*
@@ -110,9 +109,7 @@ plt.show()
 
 ## Output:
 
-![alt text](<Screenshot 2026-02-24 130056-1.png>)
-
-![alt text](<Screenshot 2026-02-24 130040.png>)
+![alt text](image.png)
 
 ## Result:
 Thus, Ridge, Lasso, and ElasticNet regularization models were implemented successfully to predict the car price and the model's performance was evaluated using R² score and Mean Squared Error.
